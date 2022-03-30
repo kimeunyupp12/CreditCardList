@@ -43,7 +43,7 @@
         <!--카드 혜택 상세-->
         <scene sceneID="ukc-dh-PON">
             <objects>
-                <viewController id="Dn0-pV-nNU" customClass="CardDetailViewController" customModule="CreditCardList" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CardDetailViewController" id="Dn0-pV-nNU" customClass="CardDetailViewController" customModule="CreditCardList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q3d-LB-eAE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -195,6 +195,9 @@
             <point key="canvasLocation" x="-521" y="98"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="0uo-jC-Mb3"/>
+    </designables>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
